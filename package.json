@@ -17,5 +17,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/paytm/Paytm_Node_Checksum"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express": "^4.18.2"
   }
 }
