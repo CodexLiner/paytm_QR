@@ -71,7 +71,7 @@ app.post("/", async (req, res) => {
 app.post("/web", async (req, res) => {
   axios
     .post(
-      "https://304a-2405-201-3008-611c-94f2-1083-4c2c-99da.in.ngrok.io/paytm_webhook",
+      "https://304a-2405-201-3008-611c-94f2-1083-4c2c-99da.in.ngrok.io/paytm_webhook/",
       {
         response: req.body,
       }
